@@ -39,7 +39,7 @@ a {
 
 
 /* article */
-article {
+body {
   max-width: 960px;
   margin: 0 auto;
   overflow: auto;
@@ -49,21 +49,21 @@ article {
   background: white;
 }
 
-article h1 {
+body h1 {
   font-size: 2em;
 }
 
-article h2 {
+body h2 {
   color: rgb(0, 191, 243);
 }
 
-article h3 {
+body h3 {
   color: #5c99ca;
 }
 
 
 /* header */
-article>header {
+body>header {
   position: relative;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -73,7 +73,7 @@ article>header {
   text-align: center;
 }
 
-article>header>p {
+body>header>p {
   margin-bottom: 0;
   color: #999999;
 }
@@ -144,7 +144,6 @@ aside .skills .item .skillValue {
 
 aside .skills .item .skillValue i {
   display: block;
-  width: 80%;
   height: 4px;
   background-color: #ff6600;
 }
@@ -250,11 +249,20 @@ main {
     width: 100%;
   }
 
-  article>header {
+  body>header {
     padding-bottom: 120px;
   }
 
   main {
     border-left: none;
   }
+}
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  height: 16px;
+  color: #ffffff;
+  background-color: #3c3c3c;
+  text-align: center;
 }
