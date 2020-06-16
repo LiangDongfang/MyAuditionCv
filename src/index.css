@@ -95,19 +95,19 @@ aside {
 aside .img {
   text-align: center;
   position: absolute;
-  top: -90px;
+  top: -80px;
   width: 100%;
   margin-left: -24px;
 }
 
 aside img {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
 aside .baseInfo {
-  padding-top: 60px;
+  padding-top: 40px;
   padding-bottom: 16px;
   border-bottom: 2px solid #999999;
 }
